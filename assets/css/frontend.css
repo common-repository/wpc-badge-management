@@ -1,0 +1,38 @@
+.wpcbm-wrapper {
+    position: relative;
+}
+
+.wpcbm-badges {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+
+.wpcbm-badges.wpcbm-badges-flat {
+    position: relative;
+    margin-left: -5px;
+    margin-right: -5px;
+    justify-content: flex-start;
+}
+
+.wpcbm-badges.wpcbm-badges-flat .wpcbm-badge {
+    margin: 5px;
+    position: relative !important;
+}
+
+.wpcbm-badges[class*="left"] .wpcbm-badge {
+    margin-right: 10px;
+}
+
+.wpcbm-badges[class*="center"] .wpcbm-badge {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.wpcbm-badges[class*="right"] .wpcbm-badge {
+    margin-left: 10px;
+}

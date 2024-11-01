@@ -1,0 +1,523 @@
+.wpcbm-wrapper {
+    max-width: 100%;
+}
+
+/* Pos */
+
+.wpcbm-badges-top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.wpcbm-badges-top-center {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wpcbm-badges-top-right {
+    top: 10px;
+    left: auto;
+    right: 10px;
+}
+
+.wpcbm-badges-middle-left {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.wpcbm-badges-middle-center {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.wpcbm-badges-middle-right {
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.wpcbm-badges-bottom-left {
+    bottom: 10px;
+    left: 10px;
+}
+
+.wpcbm-badges-bottom-center {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wpcbm-badges-bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Style */
+
+.wpcbm-badge-style-image {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.wpcbm-badge-style-image .wpcbm-badge-inner {
+    display: block;
+    width: 80px;
+}
+
+.wpcbm-badge-style-image img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.wpcbm-badge-style-01 {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.wpcbm-badge-style-02 {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.wpcbm-badge-style-03 {
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.wpcbm-badge-style-04 {
+    padding: 5px 10px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.wpcbm-badge-style-05 {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+}
+
+.wpcbm-badge-style-05 .wpcbm-badge-inner {
+    background-color: inherit;
+}
+
+.wpcbm-badge-style-05 .wpcbm-badge-inner:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    margin-top: -16px;
+    margin-left: -20px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: inherit;
+}
+
+.wpcbm-badge-style-06 {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+}
+
+.wpcbm-badge-style-06 .wpcbm-badge-inner {
+    background-color: inherit;
+}
+
+.wpcbm-badge-style-06 .wpcbm-badge-inner:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -6px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-color: inherit;
+    transform: rotate(45deg);
+}
+
+.wpcbm-badge-style-07 {
+    padding: 5px 10px;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 4px 4px rgb(0 0 0 / 20%);
+}
+
+.wpcbm-badge-style-08 {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), 50% 100%, 0 calc(100% - 8px));
+}
+
+.wpcbm-badge-style-09 {
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 8px), 0 100%);
+}
+
+.wpcbm-badge-style-10 {
+    padding: 5px 20px 5px 10px;
+    border: none;
+    clip-path: polygon(0% 0%, 100% 0%, calc(100% - 8px) 50%, 100% 100%, 0% 100%);
+}
+
+.wpcbm-badge-style-11 {
+    padding: 5px 10px 5px 20px;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 8px 50%);
+}
+
+.wpcbm-badge-style-12 {
+    padding: 5px 20px 5px 10px;
+    border: none;
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+}
+
+.wpcbm-badge-style-13 {
+    padding: 5px 10px 5px 20px;
+    border: none;
+    clip-path: polygon(10px 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.wpcbm-badge-style-14 {
+    position: absolute;
+    padding: 5px 20px;
+    border: none;
+}
+
+.wpcbm-badge-style-14 .wpcbm-badge-inner {
+    border-color: inherit;
+}
+
+.wpcbm-badge-style-14 .wpcbm-badge-inner:before {
+    content: '';
+    height: 0;
+    width: 0;
+    top: -8px;
+    left: 0;
+    border-style: solid;
+    border-bottom-width: 8px;
+    border-bottom-color: inherit;
+    border-left-width: 8px;
+    border-left-color: transparent;
+    border-top-width: 0;
+    border-right-width: 0;
+    position: absolute;
+}
+
+[class*="wpcbm-badges-top-"] .wpcbm-badge-style-14 {
+    top: 0;
+}
+
+[class*="wpcbm-badges-bottom-"] .wpcbm-badge-style-14 {
+    bottom: 0;
+}
+
+.wpcbm-badges[class*="-left"] .wpcbm-badge-style-14 {
+    left: -18px;
+}
+
+.wpcbm-badges[class*="-center"] .wpcbm-badge-style-14 {
+    position: relative;
+}
+
+.wpcbm-badges[class*="-center"] .wpcbm-badge-style-14 .wpcbm-badge-inner:before {
+    display: none;
+}
+
+.wpcbm-badges[class*="-right"] .wpcbm-badge-style-14 {
+    right: -18px;
+}
+
+.wpcbm-badges[class*="-right"] .wpcbm-badge-style-14 .wpcbm-badge-inner:before {
+    left: auto;
+    right: 0;
+    border-bottom-width: 8px;
+    border-bottom-color: inherit;
+    border-right-width: 8px;
+    border-right-color: transparent;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+.wpcbm-badge-style-15 {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/15.svg);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-16 {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/16.svg);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-17 {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/17.svg);
+    background-size: 52px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-18 {
+    padding: 0;
+    width: 60px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/18.svg);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-19 {
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/19.svg);
+    background-size: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-20 {
+    padding: 0;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/20.svg);
+    background-size: 60px;
+    background-position: -2px;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-21 {
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/21.svg);
+    background-size: auto 6px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-22 {
+    padding: 0 10px 10px 10px;
+    text-align: center;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background-image: url(../images/background/22.svg);
+    background-size: auto 6px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.wpcbm-badge-style-23 {
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.wpcbm-badge-style-24 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 73% 27% 76% 24% / 36% 69% 31% 64%;
+    border: 2px solid #6f2a41;
+    background-color: #b9466c;
+}
+
+.wpcbm-badge-style-25 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 67% 33% 68% 32% / 30% 52% 48% 70%;
+    border: 2px solid #327993;
+    background-color: #00a0bc;
+}
+
+.wpcbm-badge-style-26 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 67% 33% 61% 39% / 47% 30% 70% 53%;
+    border: 2px solid #cf7704;
+    background-color: #ffad00;
+}
+
+.wpcbm-badge-style-27 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 47% 53% 53% 47% / 65% 46% 54% 35%;
+    border: 2px solid #4a8800;
+    background-color: #77bb24;
+}
+
+.wpcbm-badge-style-28 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 73% 27% 29% 71% / 34% 34% 66% 66%;
+    border: 2px solid #6f2a41;
+    background-color: #b9466c;
+}
+
+.wpcbm-badge-style-29 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 70% 30% 76% 24% / 57% 39% 61% 43%;
+    border: 2px solid #327993;
+    background-color: #00a0bc;
+}
+
+.wpcbm-badge-style-30 {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 49% 51% 51% 49% / 36% 69% 31% 64%;
+    border: 2px solid #4a8800;
+    background-color: #77bb24;
+}
